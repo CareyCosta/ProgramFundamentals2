@@ -9,3 +9,7 @@ end
 students[:cohort4] = 43
 
 stuents.keys
+
+students.keys.each do |c|
+  students[c] += 5
+end
