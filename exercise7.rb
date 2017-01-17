@@ -5,3 +5,5 @@ students = {
 students.each do |c, v|
   puts "#{c}: #{v} students"
 end
+
+students[:cohort4] = 43
