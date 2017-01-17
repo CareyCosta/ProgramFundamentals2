@@ -7,3 +7,5 @@ students.each do |c, v|
 end
 
 students[:cohort4] = 43
+
+stuents.keys
