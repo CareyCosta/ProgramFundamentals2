@@ -1,5 +1,3 @@
-"What is your temperature in fahrenheit?"
-
-n = gets.chomp
-
-" #{n} is ___ in celsius"  
+def tempconvert(num)
+  (num - 32) * 0.5555
+end
