@@ -13,3 +13,5 @@ stuents.keys
 students.keys.each do |c|
   students[c] += 5
 end
+
+students.delete(:cohort2)
